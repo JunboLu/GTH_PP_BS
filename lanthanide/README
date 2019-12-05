@@ -1,0 +1,22 @@
+              Lanthanide GTH pseudopotential and MOLOPT basis set README
+
+We build the GTH pseudopotential and MOLOPT basis sets for lanthanide series. If you have
+any question, please send problems and feedback to lujunbo15@gmail.com. If you want to use
+use our pseudopotential and basis sets, please read our literature at first:
+J. Chem. Theory Comput. 2019, 15, 5987−5997.
+
+GTH pseudopotential is an explicit seperable pseudopotential. This pseudopotential is
+different from quantum chemistry pseudopotential. It is used in CP2K, CPMD and QE program.
+For our lanthanide GTH pseudopotential, we adopt large-core pseudopotential from La to Ga,
+and medium-core pseuopotential from Tb to Lu. When users use these pseudopotential, please
+be careful to set cutoff in CP2K. For late lanthanide using medium-core pseudopotential, we
+suggest to use larger cutoff. The MOLOPT basis set format is a little different from basis
+set of d-block. We use the same Gaussian exponent for s, p and d states, and uncontract f 
+states. This is mainly due to the extremely localized 4f orbital.
+
+The original GTH pseudopotential is in GTH directory. The final version GTH pseudopotential
+and basis sets are in final_PP_BS directory. Users can copy the GTH pseudopotential and basis
+set in final_PP_BS directory. The format is CP2K format. For other softwares, users need to
+change its format.
+
+Enjoy using these pseudopotential and basis sets! 

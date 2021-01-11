@@ -1,5 +1,30 @@
-              Actinide GTH pseudopotential and MOLOPT basis set README
+              Actinide GTH pseudopotentials and MOLOPT basis sets README
 
-We are optimizing GTH pseudopotential and MOLOPT basis set for actinide series. It is of great 
-importance but difficult!
+We build the GTH pseudopotentials and MOLOPT basis sets for actinide series. If you have any
+question, please send problems and feedback to lujunbo15@gmail.com and junli@tsinghua.edu.cn.
+If you want to use these pseudopotentials and basis sets, we recomend that you could read our
+literature at first:
+J. Chem. Theory Comput. 2019, 15, 5987−5997.
 
+There are medium-core and large-core GTH pseudopotentials and companion basis sets for actinide
+series. These parameters are both in CP2K format. The definions of medium-core and large-core
+pseudopotentials are rather different. Let us take uranium atom as example:
+
+-------------------------------------------------------------
+ Core-type         Core          Semi-core         Valence
+-------------------------------------------------------------
+Medium-core     [Xe]4f^14     5d^10/6s^2/6p^6  5f^3/6d^1/7s^2
+-------------------------------------------------------------
+Large-core   [Xe]4f^14/5d^10     6s^2/6p^6     5f^3/6d^1/7s^2
+-------------------------------------------------------------
+
+It is clear to find that 5d^10 is treated as semi-core state in medium-core pseudopotential.
+When users use medium-core pseudopotentials, larger cutoff (>600 Ry) is safer. Different from 
+lanthanides, we use the same Gaussian exponents for s, p, d, f and g states in basis sets. It
+is mainly because 4f orbital is more compact than 5f orbital.
+
+The medium-core GTH pseudopotentials are in An-PP-M file, and companion basis sets are in An-BS-M
+file. The large-core GTH pseudopotentials are in An-PP-L file, and companion basis sets are in 
+An-BS-L file. We also present large-core pseudopotentials of uranium with different r^loc.
+
+Enjoy using actinide pseudopotential and basis sets! 

@@ -4,7 +4,8 @@ We build the GTH pseudopotentials and MOLOPT basis sets for actinide series. If 
 question, please send problems and feedback to lujunbo15@gmail.com and junli@tsinghua.edu.cn.
 If you want to use these pseudopotentials and basis sets, we recomend that you could read our
 literature at first:
-J. Chem. Theory Comput. 2019, 15, 5987−5997.
+
+J.-B. Lu et al. DOI:10.26434/chemrxiv.13550054.v1
 
 There are medium-core and large-core GTH pseudopotentials and companion basis sets for actinide
 series. These parameters are both in CP2K format. The definions of medium-core and large-core

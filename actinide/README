@@ -5,7 +5,7 @@ question, please send problems and feedback to lujunbo15@gmail.com and junli@tsi
 If you want to use these pseudopotentials and basis sets, we recomend that you could read our
 literature at first:
 
-J.-B. Lu et al. DOI:10.26434/chemrxiv.13550054.v1
+J.-B. Lu et al. JCTC, 2021, DOI:10.1021/acs.jctc.1c00026.
 
 There are medium-core and large-core GTH pseudopotentials and companion basis sets for actinide
 series. These parameters are both in CP2K format. The definions of medium-core and large-core
